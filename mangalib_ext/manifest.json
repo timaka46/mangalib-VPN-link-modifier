@@ -1,0 +1,15 @@
+{
+    "name": "Mangalib VPN Link Modifier",
+    "version": "0.5",
+    "manifest_version": 3,
+    "permissions": [
+      "https://mangalib.me/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://mangalib.me/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
+  
